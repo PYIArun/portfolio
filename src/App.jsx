@@ -23,8 +23,9 @@ const App = () => {
         
         <div className="heading-more ">
           <div className='flex flex-col lg:flex-row gap-2 px-3 lg:px-0 items-center lg:items-start text-center lg:text-start justify-between my-[18px] '>
-            <h1 className='shadow-lg text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug text-center'>Heading Line 1 <br></br>
-    Heading Line 2</h1>
+            <h1 className='shadow-lg text-5xl md:text-5xl lg:text-6xl font-extrabold leading-snug text-center lg:text-start'>Hi, I'm<br></br>
+    
+    Arun Chandra👋</h1>
 
             {/* <ul className='list-none'>
               <li className='cursor-pointer hover:font-bold'>About</li>
@@ -54,17 +55,16 @@ When I'm not coding or fixing bugs, I like to relax by cricket or badminton. The
 In short, I'm on a path of constant learning, eager to use my growing skills to solve real problems, drive new ideas, and maybe, just maybe, complete a project without any bugs!
           </p>
         </section>
-
-
+        
         <section>
         <h1 className='font-bold text-3xl mt-[65px]'>Education</h1>
-        <div className='backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
+        <div className='card backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
           <h1 className='opacity-90 text-xl font-semibold'>Master of Computer Applications</h1>
           <h2 className='font-normal text-sm opacity-70'>University of Delhi</h2>
           <h3 className='font-light text-sm opacity-70'>2024-Present</h3>
         </div>
 
-        <div className='backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
+        <div className='card backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
           <h1 className='opacity-90 text-xl font-semibold'>B.Sc. (H) Computer Science</h1>
           <h2 className='font-normal text-sm opacity-70'>University of Delhi</h2>
           <h3 className='font-light text-sm opacity-70'>2021-2024</h3>
@@ -74,10 +74,10 @@ In short, I'm on a path of constant learning, eager to use my growing skills to 
         <section>
         <h1 className='font-bold text-3xl mt-[65px]'>Projects</h1>
 
-        <div className='backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
+        <div className='card backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
           <h1 className='opacity-90 text-xl font-semibold'>E-Commerce Site</h1>
           <h2 className='font-normal text-sm opacity-70'>This project is a full-stack eCommerce website that makes online shopping easy and secure. On the front end, it uses React.js to create a smooth and interactive user experience, while Tailwind CSS ensures a modern and clean look. For the back end, Flask handles everything behind the scenes, like user accounts and order management. Users can log in securely with session-based authentication. Stripe is integrated to process payments safely. </h2>
-          <h3 className='my-2 font-light text-sm opacity-70 underline flex justify-center lg:justify-start' ><a href='https://github.com/PYIArun/Infotrixs/tree/main/E-commerce%20Site' className='flex items-center gap-0'>Link to Github<MdArrowOutward /></a></h3>
+          <h3 className='my-2 font-light text-sm opacity-70 underline flex justify-center lg:justify-start' ><a href='#' className='flex items-center gap-0'>Link to Github<MdArrowOutward /></a></h3>
           <div className='flex flex-row gap-2 justify-center lg:justify-start'>
 
           <div className='font-medium mt-2 inline-block px-4 py-1 text-[10px] justify-center items-center rounded-full bg-gray-400 text-black'> React</div>
@@ -89,10 +89,10 @@ In short, I'm on a path of constant learning, eager to use my growing skills to 
           
         </div>
 
-        <div className='backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
+        <div className='card backdrop-blur-lg mt-[12px] p-6 shadow-lg min-h-20 w-full bg-white bg-opacity-5 rounded-xl'>
           <h1 className='opacity-90 text-xl font-semibold'>StuFac</h1>
           <h2 className='font-normal text-sm opacity-70'>A student and faculty communication portal for notices, resources, and queries.</h2>
-          <h3 className='my-2 font-light text-sm opacity-70 underline  flex justify-center lg:justify-start' ><a href='https://github.com/PYIArun/StuFacPortal' className='flex items-center gap-0'>Link to Github<MdArrowOutward /></a></h3>
+          <h3 className='my-2 font-light text-sm opacity-70 underline  flex justify-center lg:justify-start' ><a href='#' className='flex items-center gap-0'>Link to Github<MdArrowOutward /></a></h3>
           <div className='flex flex-row gap-2 justify-center lg:justify-start'>
 
           <div className='font-medium mt-2 inline-block px-4 py-1 text-[10px] justify-center items-center rounded-full bg-gray-400 text-black'> HTML </div>
